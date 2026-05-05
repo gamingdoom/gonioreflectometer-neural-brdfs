@@ -1,0 +1,34 @@
+{
+	"Name": "gonioreflectometer_photodiode",
+	"Description": "PD70-01C/TR7",
+	"Tool": "PD",
+	"Design": {
+		"photodiode": {
+			"sensor": "",
+			"reverseVoltage": 5,
+			"biasPreference": "negative",
+			"capacitance": 2e-11,
+			"shuntResistance": 1000000000,
+			"peakCurrent": 0.00006,
+			"peakVoltage": 3.3,
+			"speedPreference": "bandwidth",
+			"speed": 100,
+			"peaking": "0.166666",
+			"stages": "1",
+			"opAmps": [
+				{
+					"stage": "stage_1",
+					"opAmp": "AD8613",
+					"locked": true,
+					"found": true,
+					"valid": true
+				}
+			],
+			"frequencyResponseUnit": "dB",
+			"noiseGainUnit": "dB"
+		}
+	},
+	"CreatedDate": "2026-04-29 05:25:55 PM",
+	"UpdatedDate": "2026-04-29 05:25:55 PM",
+	"JsonVersion": "1.0.0"
+}
