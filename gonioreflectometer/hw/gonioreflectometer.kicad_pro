@@ -126,7 +126,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -942,7 +942,7 @@
         "uuid": "d5bf8fa2-f325-4e8e-b81f-c3b0ed0eabae"
       }
     ],
-    "used_designators": "J1,U3,Q1-11,R1-23,TP1-7,D1,C1-5,S1",
+    "used_designators": "J1-2,U3,Q1-11,R1-23,TP1-7,D1,C1-5,S1",
     "variants": []
   },
   "sheets": [
